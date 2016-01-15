@@ -100,6 +100,7 @@ class GameSceneUI extends eui.Component{
 	public createIcon(col : number, row : number, level : number) : GameObject{
         var item: GameObject = new GameObject();
         var skin: GameItemUI = new GameItemUI();
+        skin.touchEnabled = false;
         skin.setIcon(Math.ceil(Math.random() * level).toString());
         item.setSkin(skin);
         item.x = col;
