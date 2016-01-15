@@ -28,6 +28,7 @@ class GameSceneUI extends eui.Component{
         this.m_sprRootContainer.addChild(this.m_sprBackGround);
         this.m_sprRootContainer.addChild(this.m_sprIconContainer);
         this.m_sprRootContainer.addChild(this.m_sprParticleContainer);
+        this.touchEnabled = this.touchChildren = false;
         this.addEventListener(egret.Event.ADDED_TO_STAGE, this.onAddToStage, this);
         this.addEventListener(egret.Event.REMOVED_FROM_STAGE, this.onRemoveFromStage, this);
 	}
@@ -69,7 +70,7 @@ class GameSceneUI extends eui.Component{
 	public createParticle(pixelX : number, pixelY : number){
         var tex = RES.getRes("snowBoom_png");
         var cfg = RES.getRes("snowBoom_json");
-        var p = new particle.GravityParticleSystem(tex,cfg);
+        var p = new particle.GravityParticleSystem(tex, cfg);
         p.start(200);
         p.x = pixelX;
         p.y = pixelY;

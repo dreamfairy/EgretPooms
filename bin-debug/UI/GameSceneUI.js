@@ -15,6 +15,7 @@ var GameSceneUI = (function (_super) {
         this.m_sprRootContainer.addChild(this.m_sprBackGround);
         this.m_sprRootContainer.addChild(this.m_sprIconContainer);
         this.m_sprRootContainer.addChild(this.m_sprParticleContainer);
+        this.touchEnabled = this.touchChildren = false;
         this.addEventListener(egret.Event.ADDED_TO_STAGE, this.onAddToStage, this);
         this.addEventListener(egret.Event.REMOVED_FROM_STAGE, this.onRemoveFromStage, this);
     }
