@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+        <SchemaVersion>2.0</SchemaVersion>
+        <ProjectGuid>{99d16a5a-285c-42ba-867f-851205205967}</ProjectGuid>
+        <ProjectHome />
+        <EgretProject>True</EgretProject>
+        <NewEgretProject>True</NewEgretProject>
+        <ProjectView>ShowAllFiles</ProjectView>
+        <OutputType>Library</OutputType>
+        <TransformWebConfigEnabled>False</TransformWebConfigEnabled>
+        <AutoParameterizationWebConfigConnectionStrings>False</AutoParameterizationWebConfigConnectionStrings>
+        <StartupFile />
+        <WorkingDirectory>.</WorkingDirectory>
+        <OutputPath>.</OutputPath>
+        <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+        <TypeScriptSourceMap>true</TypeScriptSourceMap>
+        <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
+        <EnableTypeScript>true</EnableTypeScript>
+        <TypeScriptEnabled>true</TypeScriptEnabled>
+        <TypeScriptEmitBOM>false</TypeScriptEmitBOM>
+        <TypeScriptCompileOnSaveEnabled>false</TypeScriptCompileOnSaveEnabled>
+        <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+        <TypeScriptOutDir>bin-debug\</TypeScriptOutDir>
+        <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+        <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+    <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+    <ItemGroup>
+        <Content Include="build.bat" />
+        <Content Include="Egret1.csproj" />
+        <Content Include="egretProperties.json" />
+        <Content Include="favicon.ico" />
+        <Content Include="index.html" />
+        <Content Include="web.config" />
+        <Content Include="wingProperties.json" />
+        <Compile Include="bin-debug\AssetAdapter.js" />
+        <Content Include="bin-debug\AssetAdapter.js.map" />
+        <Compile Include="bin-debug\LoadingUI.js" />
+        <Content Include="bin-debug\LoadingUI.js.map" />
+        <Compile Include="bin-debug\Main.js" />
+        <Content Include="bin-debug\Main.js.map" />
+        <Compile Include="bin-debug\ThemeAdapter.js" />
+        <Content Include="bin-debug\ThemeAdapter.js.map" />
+        <TypeScriptCompile Include="libs\exml.e.d.ts" />
+        <Content Include="resource\default.res.json" />
+        <Content Include="resource\default.thm.json" />
+        <TypeScriptCompile Include="src\AssetAdapter.ts" />
+        <TypeScriptCompile Include="src\LoadingUI.ts" />
+        <TypeScriptCompile Include="src\Main.ts" />
+        <TypeScriptCompile Include="src\ThemeAdapter.ts" />
+        <Compile Include="bin-debug\Show\GameScene.js" />
+        <Content Include="bin-debug\Show\GameScene.js.map" />
+        <Compile Include="bin-debug\Show\UIManager.js" />
+        <Content Include="bin-debug\Show\UIManager.js.map" />
+        <Compile Include="bin-debug\UI\GameItemCountUI.js" />
+        <Content Include="bin-debug\UI\GameItemCountUI.js.map" />
+        <Compile Include="bin-debug\UI\GameItemUI.js" />
+        <Content Include="bin-debug\UI\GameItemUI.js.map" />
+        <Compile Include="bin-debug\UI\GameSceneUI.js" />
+        <Content Include="bin-debug\UI\GameSceneUI.js.map" />
+        <Compile Include="bin-debug\UI\GameScoreUI.js" />
+        <Content Include="bin-debug\UI\GameScoreUI.js.map" />
+        <Compile Include="bin-debug\UI\GameTimerUI.js" />
+        <Content Include="bin-debug\UI\GameTimerUI.js.map" />
+        <Compile Include="bin-debug\UI\StartPanelUI.js" />
+        <Content Include="bin-debug\UI\StartPanelUI.js.map" />
+        <Compile Include="bin-debug\Logic\GameObject\GameObject.js" />
+        <Content Include="bin-debug\Logic\GameObject\GameObject.js.map" />
+        <Compile Include="bin-debug\Logic\GameState\GameState.js" />
+        <Content Include="bin-debug\Logic\GameState\GameState.js.map" />
+        <Compile Include="bin-debug\Logic\GameState\GameStateMgr.js" />
+        <Content Include="bin-debug\Logic\GameState\GameStateMgr.js.map" />
+        <Compile Include="bin-debug\Logic\GameState\IGameState.js" />
+        <Content Include="bin-debug\Logic\GameState\IGameState.js.map" />
+        <Compile Include="bin-debug\Logic\GameState\StartState.js" />
+        <Content Include="bin-debug\Logic\GameState\StartState.js.map" />
+        <Content Include="bin-release\web\bin-release\index.html" />
+        <Compile Include="bin-release\web\bin-release\main.min.js" />
+        <Content Include="bin-release\web\bin-release\resource\default.res.json" />
+        <Content Include="bin-release\web\bin-release\resource\default.thm.json" />
+        <Compile Include="bin-release\web\bin-release\libs\modules\egret\egret.min.js" />
+        <Compile Include="bin-release\web\bin-release\libs\modules\egret\egret.web.min.js" />
+        <Compile Include="bin-release\web\bin-release\libs\modules\eui\eui.min.js" />
+        <Compile Include="bin-release\web\bin-release\libs\modules\game\game.min.js" />
+        <Compile Include="bin-release\web\bin-release\libs\modules\game\game.web.min.js" />
+        <Compile Include="bin-release\web\bin-release\libs\modules\particle\particle.min.js" />
+        <Compile Include="bin-release\web\bin-release\libs\modules\res\res.min.js" />
+        <Content Include="bin-release\web\bin-release\resource\assets\poom.json" />
+        <Content Include="bin-release\web\bin-release\resource\assets\poom.png" />
+        <Content Include="bin-release\web\bin-release\resource\assets\poom.tm" />
+        <Content Include="bin-release\web\bin-release\resource\eui_skins\ButtonSkin.exml" />
+        <Content Include="bin-release\web\bin-release\resource\eui_skins\CheckBoxSkin.exml" />
+        <Content Include="bin-release\web\bin-release\resource\eui_skins\GameItemCountSkin.exml" />
+        <Content Include="bin-release\web\bin-release\resource\eui_skins\GameSceneSkin.exml" />
+        <Content Include="bin-release\web\bin-release\resource\eui_skins\GameScoreSkin.exml" />
+        <Content Include="bin-release\web\bin-release\resource\eui_skins\GameTimerSkin.exml" />
+        <Content Include="bin-release\web\bin-release\resource\eui_skins\HScrollBarSkin.exml" />
+        <Content Include="bin-release\web\bin-release\resource\eui_skins\HSliderSkin.exml" />
+        <Content Include="bin-release\web\bin-release\resource\eui_skins\ItemRendererSkin.exml" />
+        <Content Include="bin-release\web\bin-release\resource\eui_skins\PanelSkin.exml" />
+        <Content Include="bin-release\web\bin-release\resource\eui_skins\ProgressBarSkin.exml" />
+        <Content Include="bin-release\web\bin-release\resource\eui_skins\RadioButtonSkin.exml" />
+        <Content Include="bin-release\web\bin-release\resource\eui_skins\ScrollerSkin.exml" />
+        <Content Include="bin-release\web\bin-release\resource\eui_skins\StartPanelSkin.exml" />
+        <Content Include="bin-release\web\bin-release\resource\eui_skins\TextInputSkin.exml" />
+        <Content Include="bin-release\web\bin-release\resource\eui_skins\ToggleSwitchSkin.exml" />
+        <Content Include="bin-release\web\bin-release\resource\eui_skins\VScrollBarSkin.exml" />
+        <Content Include="bin-release\web\bin-release\resource\eui_skins\VSliderSkin.exml" />
+        <Content Include="bin-release\web\bin-release\resource\assets\Button\button_down.png" />
+        <Content Include="bin-release\web\bin-release\resource\assets\Button\button_up.png" />
+        <Content Include="bin-release\web\bin-release\resource\assets\CheckBox\checkbox_select_disabled.png" />
+        <Content Include="bin-release\web\bin-release\resource\assets\CheckBox\checkbox_select_down.png" />
+        <Content Include="bin-release\web\bin-release\resource\assets\CheckBox\checkbox_select_up.png" />
+        <Content Include="bin-release\web\bin-release\resource\assets\CheckBox\checkbox_unselect.png" />
+        <Content Include="bin-release\web\bin-release\resource\assets\ItemRenderer\selected.png" />
+        <Content Include="bin-release\web\bin-release\resource\assets\Panel\border.png" />
+        <Content Include="bin-release\web\bin-release\resource\assets\Panel\header.png" />
+        <Content Include="bin-release\web\bin-release\resource\assets\Particles\snowBoom.json" />
+        <Content Include="bin-release\web\bin-release\resource\assets\Particles\snowBoom.png" />
+        <Content Include="bin-release\web\bin-release\resource\assets\ProgressBar\thumb_pb.png" />
+        <Content Include="bin-release\web\bin-release\resource\assets\ProgressBar\track_pb.png" />
+        <Content Include="bin-release\web\bin-release\resource\assets\RadioButton\radiobutton_select_disabled.png" />
+        <Content Include="bin-release\web\bin-release\resource\assets\RadioButton\radiobutton_select_down.png" />
+        <Content Include="bin-release\web\bin-release\resource\assets\RadioButton\radiobutton_select_up.png" />
+        <Content Include="bin-release\web\bin-release\resource\assets\RadioButton\radiobutton_unselect.png" />
+        <Content Include="bin-release\web\bin-release\resource\assets\ScrollBar\roundthumb.png" />
+        <Content Include="bin-release\web\bin-release\resource\assets\ScrollBar\track_sb.png" />
+        <Content Include="bin-release\web\bin-release\resource\assets\Slider\thumb.png" />
+        <Content Include="bin-release\web\bin-release\resource\assets\Slider\track.png" />
+        <Content Include="bin-release\web\bin-release\resource\assets\Slider\tracklight.png" />
+        <Content Include="bin-release\web\bin-release\resource\assets\ToggleSwitch\handle.png" />
+        <Content Include="bin-release\web\bin-release\resource\assets\ToggleSwitch\off.png" />
+        <Content Include="bin-release\web\bin-release\resource\assets\ToggleSwitch\on.png" />
+        <TypeScriptCompile Include="libs\modules\egret\egret.d.ts" />
+        <Compile Include="libs\modules\egret\egret.js" />
+        <Compile Include="libs\modules\egret\egret.min.js" />
+        <Compile Include="libs\modules\egret\egret.native.js" />
+        <Compile Include="libs\modules\egret\egret.native.min.js" />
+        <Compile Include="libs\modules\egret\egret.web.js" />
+        <Compile Include="libs\modules\egret\egret.web.min.js" />
+        <TypeScriptCompile Include="libs\modules\eui\eui.d.ts" />
+        <Compile Include="libs\modules\eui\eui.js" />
+        <Compile Include="libs\modules\eui\eui.min.js" />
+        <TypeScriptCompile Include="libs\modules\game\game.d.ts" />
+        <Compile Include="libs\modules\game\game.js" />
+        <Compile Include="libs\modules\game\game.min.js" />
+        <Compile Include="libs\modules\game\game.native.js" />
+        <Compile Include="libs\modules\game\game.native.min.js" />
+        <Compile Include="libs\modules\game\game.web.js" />
+        <Compile Include="libs\modules\game\game.web.min.js" />
+        <TypeScriptCompile Include="libs\modules\particle\particle.d.ts" />
+        <Compile Include="libs\modules\particle\particle.js" />
+        <Compile Include="libs\modules\particle\particle.min.js" />
+        <TypeScriptCompile Include="libs\modules\res\res.d.ts" />
+        <Compile Include="libs\modules\res\res.js" />
+        <Compile Include="libs\modules\res\res.min.js" />
+        <Content Include="resource\assets\poom.json" />
+        <Content Include="resource\assets\poom.png" />
+        <Content Include="resource\assets\poom.tm" />
+        <Content Include="resource\eui_skins\ButtonSkin.exml" />
+        <Content Include="resource\eui_skins\CheckBoxSkin.exml" />
+        <Content Include="resource\eui_skins\GameItemCountSkin.exml" />
+        <Content Include="resource\eui_skins\GameSceneSkin.exml" />
+        <Content Include="resource\eui_skins\GameScoreSkin.exml" />
+        <Content Include="resource\eui_skins\GameTimerSkin.exml" />
+        <Content Include="resource\eui_skins\HScrollBarSkin.exml" />
+        <Content Include="resource\eui_skins\HSliderSkin.exml" />
+        <Content Include="resource\eui_skins\ItemRendererSkin.exml" />
+        <Content Include="resource\eui_skins\PanelSkin.exml" />
+        <Content Include="resource\eui_skins\ProgressBarSkin.exml" />
+        <Content Include="resource\eui_skins\RadioButtonSkin.exml" />
+        <Content Include="resource\eui_skins\ScrollerSkin.exml" />
+        <Content Include="resource\eui_skins\StartPanelSkin.exml" />
+        <Content Include="resource\eui_skins\TextInputSkin.exml" />
+        <Content Include="resource\eui_skins\ToggleSwitchSkin.exml" />
+        <Content Include="resource\eui_skins\VScrollBarSkin.exml" />
+        <Content Include="resource\eui_skins\VSliderSkin.exml" />
+        <Content Include="resource\assets\Button\button_down.png" />
+        <Content Include="resource\assets\Button\button_up.png" />
+        <Content Include="resource\assets\CheckBox\checkbox_select_disabled.png" />
+        <Content Include="resource\assets\CheckBox\checkbox_select_down.png" />
+        <Content Include="resource\assets\CheckBox\checkbox_select_up.png" />
+        <Content Include="resource\assets\CheckBox\checkbox_unselect.png" />
+        <Content Include="resource\assets\ItemRenderer\selected.png" />
+        <Content Include="resource\assets\Panel\border.png" />
+        <Content Include="resource\assets\Panel\header.png" />
+        <Content Include="resource\assets\Particles\snowBoom.json" />
+        <Content Include="resource\assets\Particles\snowBoom.png" />
+        <Content Include="resource\assets\ProgressBar\thumb_pb.png" />
+        <Content Include="resource\assets\ProgressBar\track_pb.png" />
+        <Content Include="resource\assets\RadioButton\radiobutton_select_disabled.png" />
+        <Content Include="resource\assets\RadioButton\radiobutton_select_down.png" />
+        <Content Include="resource\assets\RadioButton\radiobutton_select_up.png" />
+        <Content Include="resource\assets\RadioButton\radiobutton_unselect.png" />
+        <Content Include="resource\assets\ScrollBar\roundthumb.png" />
+        <Content Include="resource\assets\ScrollBar\track_sb.png" />
+        <Content Include="resource\assets\Slider\thumb.png" />
+        <Content Include="resource\assets\Slider\track.png" />
+        <Content Include="resource\assets\Slider\tracklight.png" />
+        <Content Include="resource\assets\ToggleSwitch\handle.png" />
+        <Content Include="resource\assets\ToggleSwitch\off.png" />
+        <Content Include="resource\assets\ToggleSwitch\on.png" />
+        <TypeScriptCompile Include="src\Show\GameScene.ts" />
+        <TypeScriptCompile Include="src\Show\UIManager.ts" />
+        <TypeScriptCompile Include="src\UI\GameItemCountUI.ts" />
+        <TypeScriptCompile Include="src\UI\GameItemUI.ts" />
+        <TypeScriptCompile Include="src\UI\GameSceneUI.ts" />
+        <TypeScriptCompile Include="src\UI\GameScoreUI.ts" />
+        <TypeScriptCompile Include="src\UI\GameTimerUI.ts" />
+        <TypeScriptCompile Include="src\UI\StartPanelUI.ts" />
+        <TypeScriptCompile Include="src\Logic\GameObject\GameObject.ts" />
+        <TypeScriptCompile Include="src\Logic\GameState\GameState.ts" />
+        <TypeScriptCompile Include="src\Logic\GameState\GameStateMgr.ts" />
+        <TypeScriptCompile Include="src\Logic\GameState\IGameState.ts" />
+        <TypeScriptCompile Include="src\Logic\GameState\StartState.ts" />
+        <Compile Include="template\runtime\native_loader.js" />
+        <Compile Include="template\runtime\native_require.js" />
+        <Compile Include="template\runtime\runtime_loader.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="bin-debug" />
+        <Folder Include="bin-debug\Logic" />
+        <Folder Include="bin-debug\Logic\GameObject" />
+        <Folder Include="bin-debug\Logic\GameState" />
+        <Folder Include="bin-debug\Show" />
+        <Folder Include="bin-debug\UI" />
+        <Folder Include="bin-release" />
+        <Folder Include="bin-release\web" />
+        <Folder Include="bin-release\web\bin-release" />
+        <Folder Include="bin-release\web\bin-release\libs" />
+        <Folder Include="bin-release\web\bin-release\libs\modules" />
+        <Folder Include="bin-release\web\bin-release\libs\modules\egret" />
+        <Folder Include="bin-release\web\bin-release\libs\modules\eui" />
+        <Folder Include="bin-release\web\bin-release\libs\modules\game" />
+        <Folder Include="bin-release\web\bin-release\libs\modules\particle" />
+        <Folder Include="bin-release\web\bin-release\libs\modules\res" />
+        <Folder Include="bin-release\web\bin-release\resource" />
+        <Folder Include="bin-release\web\bin-release\resource\assets" />
+        <Folder Include="bin-release\web\bin-release\resource\assets\Button" />
+        <Folder Include="bin-release\web\bin-release\resource\assets\CheckBox" />
+        <Folder Include="bin-release\web\bin-release\resource\assets\ItemRenderer" />
+        <Folder Include="bin-release\web\bin-release\resource\assets\Panel" />
+        <Folder Include="bin-release\web\bin-release\resource\assets\Particles" />
+        <Folder Include="bin-release\web\bin-release\resource\assets\ProgressBar" />
+        <Folder Include="bin-release\web\bin-release\resource\assets\RadioButton" />
+        <Folder Include="bin-release\web\bin-release\resource\assets\ScrollBar" />
+        <Folder Include="bin-release\web\bin-release\resource\assets\Slider" />
+        <Folder Include="bin-release\web\bin-release\resource\assets\ToggleSwitch" />
+        <Folder Include="bin-release\web\bin-release\resource\eui_skins" />
+        <Folder Include="libs" />
+        <Folder Include="libs\modules" />
+        <Folder Include="libs\modules\egret" />
+        <Folder Include="libs\modules\eui" />
+        <Folder Include="libs\modules\game" />
+        <Folder Include="libs\modules\particle" />
+        <Folder Include="libs\modules\res" />
+        <Folder Include="resource" />
+        <Folder Include="resource\assets" />
+        <Folder Include="resource\assets\Button" />
+        <Folder Include="resource\assets\CheckBox" />
+        <Folder Include="resource\assets\ItemRenderer" />
+        <Folder Include="resource\assets\Panel" />
+        <Folder Include="resource\assets\Particles" />
+        <Folder Include="resource\assets\ProgressBar" />
+        <Folder Include="resource\assets\RadioButton" />
+        <Folder Include="resource\assets\ScrollBar" />
+        <Folder Include="resource\assets\Slider" />
+        <Folder Include="resource\assets\ToggleSwitch" />
+        <Folder Include="resource\eui_skins" />
+        <Folder Include="src" />
+        <Folder Include="src\Logic" />
+        <Folder Include="src\Logic\GameObject" />
+        <Folder Include="src\Logic\GameState" />
+        <Folder Include="src\Show" />
+        <Folder Include="src\UI" />
+        <Folder Include="template" />
+        <Folder Include="template\runtime" />
+    </ItemGroup>
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <!--Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them.-->
+    <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+    <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+    <ProjectExtensions>
+        <VisualStudio>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+            <WebProjectProperties>
+              <StartPageUrl>index.html</StartPageUrl>
+              <StartAction>SpecificPage</StartAction>
+              <UseIIS>False</UseIIS>
+              <AutoAssignPort>False</AutoAssignPort>
+              <IISUrl>
+              </IISUrl>
+              <NTLMAuthentication>False</NTLMAuthentication>
+              <UseCustomServer>True</UseCustomServer>
+              <DevelopmentServerPort>27256</DevelopmentServerPort>
+              <CustomServerUrl>http://localhost:27256/</CustomServerUrl>
+              <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+            </WebProjectProperties>
+          </FlavorProperties>
+        </VisualStudio>
+    </ProjectExtensions>
+    <Import           Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" 
+            Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
+  <Target Name="Build">
+    <Exec Command="egret build -sourcemap -nocoloroutput" ContinueOnError="false" StdOutEncoding="UTF-8" CustomErrorRegularExpression=".*error.*">
+      <Output TaskParameter="Outputs" PropertyName="EgretOutput" />
+      <Output TaskParameter="ExitCode" PropertyName="EgretExitCode" />
+    </Exec>
+  </Target>
+  <Target Name="Rebuild">
+    <Exec Command="egret build -e -nocoloroutput" ContinueOnError="false" StdOutEncoding="UTF-8" CustomErrorRegularExpression=".*error.*">
+      <Output TaskParameter="Outputs" PropertyName="EgretOutput" />
+      <Output TaskParameter="ExitCode" PropertyName="EgretExitCode" />
+    </Exec>
+  </Target>
+</Project>

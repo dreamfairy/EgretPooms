@@ -1,0 +1,1 @@
+"D:\Documents and Settings\Users\Administrator\AppData\Roaming\npm\egret.cmd" %*

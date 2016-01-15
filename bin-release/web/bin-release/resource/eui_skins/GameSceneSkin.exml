@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameSceneSkin" width="342" height="542" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:GameTimerUI id="eui_time" x="7" y="5" skinName="GameTimerSkin"/>
+	<ns1:GameScoreUI id="eui_score" x="173" y="5" skinName="GameScoreSkin"/>
+	<e:Label id="label_area" text="游戏区域定位" x="10" y="47"/>
+</e:Skin>

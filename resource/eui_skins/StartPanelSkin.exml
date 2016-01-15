@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="StartPanelSkin" width="400" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect height="222" width="311" verticalCenter="0" horizontalCenter="0" fillColor="0xFFFFFF" strokeColor="0x000000" strokeWeight="1"/>
+	<e:Label id="label_tittle" text="HelloWorld" x="84" y="60" width="232" textColor="0x000000" textAlign="center"/>
+	<e:Label id="label_info" text="Info" x="90" y="98" width="219" height="92" textAlign="center" textColor="0x000000"/>
+	<e:Button id="btn_enter" label="enter" x="150" y="196"/>
+</e:Skin>

@@ -1,0 +1,30 @@
+{
+	"native": {
+		"path_ignore": [],
+		"android_path": "../../Documents and Settings/Users/Administrator/poompoompoom"
+	},
+	"publish": {
+		"web": 0,
+		"native": 1,
+		"path": "bin-release"
+	},
+	"egret_version": "3.0.0",
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "eui"
+		},
+		{
+			"name": "res"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "particle",
+			"path": "../game_lib/particle/libsrc"
+		}
+	]
+}
