@@ -60,8 +60,10 @@
         {
             var str = 'Hello World Java Script!';
             var tsFun = window["TS_Main"].onJsCallMe;
-            var result = tsFun(str);
-            alert(result);
+            if (tsFun) {
+                var result = tsFun(str);
+                alert(result);
+            }
         }
     </script>
     <ts_param id="xxx" str="fuck you"/>
